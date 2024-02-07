@@ -1,12 +1,8 @@
+import "package:expensive_tracker_app/expenses.dart";
 import "package:flutter/material.dart";
 
-void main() => runApp();
-
-class MyWidget extends StatelessWidget {
-  const MyWidget({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
-  }
+void main() {
+  runApp(const MaterialApp(
+    home: Expenses(), // todo: add main widget here....
+  ));
 }
