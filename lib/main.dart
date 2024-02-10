@@ -1,8 +1,9 @@
-import "package:expensive_tracker_app/expenses.dart";
+import 'package:expensive_tracker_app/widgets/expense_list/expenses.dart';
 import "package:flutter/material.dart";
 
 void main() {
-  runApp(MaterialApp(
+  runApp(const MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: Expenses(), // todo: add main widget here....
   ));
 }
