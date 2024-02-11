@@ -9,11 +9,11 @@ class ExpenseItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: const Color.fromARGB(255, 71, 103, 218),
+      color: Color.fromARGB(255, 153, 149, 244),
       child: Padding(
         padding: const EdgeInsets.symmetric(
           horizontal: 20,
-          vertical: 30,
+          vertical: 16,
         ),
         child: Column(
           children: [
