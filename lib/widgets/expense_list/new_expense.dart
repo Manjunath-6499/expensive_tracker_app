@@ -83,12 +83,15 @@ class _NewExpenseState extends State<NewExpense> {
       padding: const EdgeInsets.fromLTRB(16, 48, 16, 16),
       child: Column(
         children: [
-          TextField(
-            controller: _titlecontroller,
-            maxLength: 50,
-            decoration: const InputDecoration(
-              label: Text(
-                "Title",
+          Center(
+            child: TextField(
+              controller: _titlecontroller,
+              style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 29),
+              maxLength: 50,
+              decoration: const InputDecoration(
+                label: Text(
+                  "Title",
+                ),
               ),
             ),
           ),
